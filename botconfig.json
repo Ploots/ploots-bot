@@ -1,0 +1,10 @@
+{
+  "prefix":"=",
+  "red": "#b70000",
+  "orange": "#ff6a00",
+  "green": "#00ff26",
+  "purple": "#d604cf",
+  "mongoPass": "mongodb://PlootsMaster:ploots1234@plootsmaster-shard-00-00-rwaoo.mongodb.net:27017,plootsmaster-shard-00-01-rwaoo.mongodb.net:27017,plootsmaster-shard-00-02-rwaoo.mongodb.net:27017/test?ssl=true&replicaSet=PlootsMaster-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "YOUTUBE_API_KEY": "AIzaSyAISCvOD0qS_ew07Ge-nLiYk5fcmf2hkp4",
+  "MAX_PLAYLIST_SIZE": 10
+}

@@ -1,0 +1,23 @@
+const Discord = require("discord.js");
+ const talkedRecently = new Set();
+module.exports.run = async (bot, message, args) => {
+
+if (talkedRecently.has(message.author.id)) {
+            return message.channel.send("Wait a few seconds. - " + message.author);
+    } else {
+
+           message.channel.send("Look Ma, no Cooldown!")
+
+        // 1Adds the user to the set so that they can't talk for a minute
+        talkedRecently.add(message.author.id);
+        setTimeout(() => {
+          // Removes the user from the set after a minute
+          talkedRecently.delete(message.author.id);
+        }, 10000
+                  );
+    }
+}
+ 
+module.exports.help = {
+  name: "=hmm"
+}
