@@ -1,0 +1,65 @@
+Okay, ploots, you dumbass, here's how some commands work
+Njg5NTIwNTQ0MTg5NjQ0ODA5.XnEEDA.KaVcgFhtOod0YCXln9G8tPHzMkk
+
+
+REMIND COMMAND: =Remind (number)Sec/min (Write here what the reminder is
+
+https://github.com/RoeeLupo/SheldoNSFW FOR NSFW
+https://github.com/RoeeLupo/SheldoNSFW FOR NSFW
+https://github.com/RoeeLupo/SheldoNSFW FOR NSFW
+https://github.com/RoeeLupo/SheldoNSFW FOR NSFW
+https://github.com/RoeeLupo/SheldoNSFW FOR NSFW
+https://docs.nekobot.xyz/#image-generation-clickforhentai
+https://docs.nekobot.xyz/#image-generation-clickforhentai
+https://docs.nekobot.xyz/#image-generation-clickforhentai
+https://docs.nekobot.xyz/#image-generation-clickforhentai
+https://docs.nekobot.xyz/#image-generation-clickforhentai
+
+
+------------------------------------------------------------------------------------------------------------------
+
+  const Discord = require("discord.js");
+
+module.exports.run = async (bot, message, args) => {
+  if (!message.member.hasPermission["ADMINISTRATOR"]) return;
+
+  // get amount of iterations
+  var iterations = parseInt(args[0], 10);
+
+  // format text
+  var args = args.slice(1);
+  const sayMessage = args.join(" ");
+
+  message.delete().catch();
+
+  // start sending messages
+  for (var i = 0; i < iterations; i++) {
+    message.channel.send(sayMessage);
+  }
+};
+
+
+module.exports.help = {
+  name: "=say"
+};
+
+------------------------------------------------------------------------------------------------------------------
+
+^^^ that's for testing the Say Command
+
+
+=eval bot.users.get("PUT USER ID HERE").send("TEXT");  
+=eval bot.channels.get('CHANNEL ID').send("TEXT")
+=eval bot.guild.get('CHANNEL ID').leave
+
+PEOPLE
+
+KRONOS:    =eval bot.users.get("569308933030805504").send("TEXT");
+NIGHTCORE: =eval bot.users.get("599347958072213523").send("TEXT");
+ LEX:      =eval bot.users.get("687376669941694480").send("TEXT");
+
+
+
+if blocklist.includes(message.author.id) return message.reply("Piss Off, you're blocked from the bot!");
+
+ " ឵឵"  <=== INVISIBLE CHARACTER
